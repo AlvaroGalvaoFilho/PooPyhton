@@ -1,12 +1,12 @@
 class Produto:
     def __init__(self,codigo, nome, descricao, categoria, preco, estoque, perecivel):
-        self.set__codigo(codigo)
-        self.set__nome(nome)
-        self.set__descricao(descricao)
-        self.set__categoria(categoria)
-        self.set__preco(preco)
-        self.set__estoque(estoque)
-        self.set__perecivel(perecivel)
+        self.set_codigo(codigo)
+        self.set_nome(nome)
+        self.set_descricao(descricao)
+        self.set_categoria(categoria)
+        self.set_preco(preco)
+        self.set_estoque(estoque)
+        self.set_perecivel(perecivel)
 
     def reajustar_preco(self, percentual):
         if percentual <=0:
